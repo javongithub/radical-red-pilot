@@ -1,4 +1,4 @@
-# Radical Red Pilot
+# Radical Red Pilot - Passion Project
 
 An autopilot that plays [Pokémon Radical Red](https://www.pokecommunity.com/threads/pokemon-radical-red.404332/)
 as a Nuzlocke inside mGBA, reports what it is doing, and hands control back the
