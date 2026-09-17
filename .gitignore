@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# Copyrighted game data — MUST NEVER be committed.
+# The pilot needs a Radical Red ROM, but you supply your own. Distributing a
+# Pokemon ROM or a save derived from one is copyright infringement.
+# ---------------------------------------------------------------------------
+*.gba
+*.gbc
+*.gb
+*.sav
+*.sav.bak
+*.srm
+*.ips
+*.bps
+*.ups
+*.sgm
+*.ss[0-9]
+
+# Local model weights and third-party runtimes (gigabytes; install separately)
+models/
+ollama/
+emulator/
+screen-reader
+
+# Runtime state: logs, screenshots, databases, pid files, save archives
+runtime/
+!runtime/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
